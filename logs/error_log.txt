@@ -1,0 +1,91 @@
+2025-04-02 22:37:41,427 - ERROR - Row 2: Error creating user alice@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e4414bcb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:37:41,427 - ERROR - Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 22:37:55,437 - ERROR - Row 4: Error creating user charlie@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e4414b2c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:37:55,438 - ERROR - Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 22:37:55,438 - ERROR - Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 22:37:55,438 - ERROR - Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 22:38:09,448 - ERROR - Row 8: Error creating user irene@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e445a7ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:38:23,456 - ERROR - Row 9: Error creating user jack@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e44184d70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:38:37,464 - ERROR - Row 10: Error creating user kate@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e4414b1d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:38:37,465 - ERROR - Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 22:38:51,474 - ERROR - Row 12: Error creating user lucy@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e44185820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:39:05,484 - ERROR - Row 13: Error creating user duplicate@example.com: Request failed after 3 retries: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/create_user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x766e44185820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-02 22:41:00,940 - ERROR - Error in user creation process after 3.96s: 
+2025-04-02 22:41:57,418 - ERROR - Error in user creation process after 0.86s: 
+2025-04-02 22:44:05,687 - ERROR - Error in user creation process after 3.17s: 
+2025-04-02 22:44:43,770 - ERROR - Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 22:44:43,774 - ERROR - Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 22:44:43,774 - ERROR - Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 22:44:43,774 - ERROR - Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 22:44:43,788 - ERROR - Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 22:49:14,706 : ERROR : Error in user creation process after 2.63s: 
+2025-04-02 22:49:20,987 : ERROR : Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 22:49:20,992 : ERROR : Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 22:49:20,992 : ERROR : Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 22:49:20,992 : ERROR : Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 22:49:21,006 : ERROR : Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 22:49:33,633:ERROR:Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 22:49:33,639:ERROR:Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 22:49:33,639:ERROR:Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 22:49:33,639:ERROR:Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 22:49:33,652:ERROR:Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+{"timestamp": "2025-04-02T22:50:39.204427", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:50:39.208875", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:50:39.209035", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:50:39.209148", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:50:39.221307", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:51:03.381804", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:51:03.386438", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:51:03.386588", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:51:03.386717", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T22:51:03.400723", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 63}
+{"timestamp": "2025-04-02T23:08:24.055248", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.060602", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.060745", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.060828", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.075986", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.091851", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.097655", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.097880", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.098016", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:08:24.115958", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:45.976088", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:45.980764", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:45.980942", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:45.981076", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:45.997131", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:46.012973", "level": "ERROR", "message": "Row 3: Skipping user creation due to Missing required field: email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:46.017944", "level": "ERROR", "message": "Row 5: Skipping user creation due to Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:46.018149", "level": "ERROR", "message": "Row 6: Skipping user creation due to Invalid email format: not-an-email.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:46.018359", "level": "ERROR", "message": "Row 7: Skipping user creation due to Missing required field: name.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+{"timestamp": "2025-04-02T23:22:46.034670", "level": "ERROR", "message": "Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.", "logger": "root", "path": "/home/tharuka/Desktop/Personal/Assignment/useraccount/main.py", "line": 64}
+2025-04-02 23:23:00,518:ERROR:Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 23:23:00,523:ERROR:Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 23:23:00,524:ERROR:Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 23:23:00,524:ERROR:Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 23:23:00,540:ERROR:Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 23:23:00,556:ERROR:Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 23:23:00,562:ERROR:Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 23:23:00,562:ERROR:Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 23:23:00,563:ERROR:Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 23:23:00,582:ERROR:Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 23:24:38,121:ERROR:Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 23:24:38,125:ERROR:Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 23:24:38,125:ERROR:Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 23:24:38,125:ERROR:Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 23:24:38,138:ERROR:Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 23:24:38,148:ERROR:Row 14: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,148:ERROR:Row 15: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,148:ERROR:Row 16: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,148:ERROR:Row 17: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,148:ERROR:Row 18: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,154:ERROR:Row 3: Skipping user creation due to Missing required field: email.
+2025-04-02 23:24:38,159:ERROR:Row 5: Skipping user creation due to Missing required field: role.
+2025-04-02 23:24:38,159:ERROR:Row 6: Skipping user creation due to Invalid email format: not-an-email.
+2025-04-02 23:24:38,159:ERROR:Row 7: Skipping user creation due to Missing required field: name.
+2025-04-02 23:24:38,176:ERROR:Row 11: Skipping user creation due to Missing required field: email; Missing required field: name; Missing required field: role.
+2025-04-02 23:24:38,189:ERROR:Row 14: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,189:ERROR:Row 15: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,189:ERROR:Row 16: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,189:ERROR:Row 17: Skipping user creation due to Missing required field: email; Missing required field: role.
+2025-04-02 23:24:38,189:ERROR:Row 18: Skipping user creation due to Missing required field: email; Missing required field: role.

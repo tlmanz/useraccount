@@ -106,8 +106,6 @@ class TestLoggingUtils(unittest.TestCase):
         self.assertEqual(log_data['logger'], 'test_logger')
         self.assertEqual(log_data['path'], 'test_file.py')
         self.assertEqual(log_data['line'], 42)
-    
-    # LogContext tests removed as the class has been removed from the codebase
 
 
 if __name__ == '__main__':
